@@ -10,6 +10,20 @@
     gtag('js', new Date());
     gtag('config', 'AW-10890424360');
   </script>
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-10890424360/ydAMCOLfy4wcEKjg-sgo',
+      'event_callback': callback
+    });
+    return false;
+  }
+  </script>
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -140,7 +154,7 @@
             El Dr. José Ramón Márquez es urólogo en Hermosillo, Sonora, con especialidad en cirugía de próstata, tratamiento de cálculos urinarios con láser y vasectomía. Atiende en Celtara Medical &amp; Professional Center con citas programadas.
           </p>
           <div class="cta-row">
-            <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" target="_blank" onclick="gtag('event','conversion',{'send_to':'AW-10890424360/fn9OCJKDyYccEKjg-sgo'});">
+            <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" target="_blank" onclick="return gtag_report_conversion(this.href);">
               Agendar por WhatsApp
             </a>
             <a class="btn btn-secondary" href="tel:+522227526728">Llamar ahora</a>
@@ -216,7 +230,7 @@
       <p><strong>Horario:</strong> Lunes a viernes · 09:00 a 12:00 y 16:00 a 20:00 · Solo con cita · Urgencias 24/7</p>
       <p><strong>Ubicación:</strong> Celtara Medical &amp; Professional Center, Piso 7, consultorio 726. Av. P.º Río San Miguel 39, 83280 Hermosillo, Son.</p>
       <div class="quick-actions">
-        <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" target="_blank" onclick="gtag('event','conversion',{'send_to':'AW-10890424360/fn9OCJKDyYccEKjg-sgo'});">
+        <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" target="_blank" onclick="return gtag_report_conversion(this.href);">
           Agendar por WhatsApp
         </a>
         <a class="btn btn-secondary" href="tel:+522227526728">Llamar ahora</a>
@@ -240,11 +254,11 @@
   </main>
 
   <div class="floating-actions">
-    <a class="floating-btn floating-book" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" target="_blank" onclick="gtag('event','conversion',{'send_to':'AW-10890424360/fn9OCJKDyYccEKjg-sgo'});">
+    <a class="floating-btn floating-book" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" target="_blank" onclick="return gtag_report_conversion(this.href);">
       Agendar consulta
     </a>
     <a class="floating-btn floating-call" href="tel:+522227526728">Llamar ahora</a>
-    <a class="floating-btn floating-wa" href="https://wa.me/526621682543" target="_blank" onclick="gtag('event','conversion',{'send_to':'AW-10890424360/fn9OCJKDyYccEKjg-sgo'});">
+    <a class="floating-btn floating-wa" href="https://wa.me/526621682543" target="_blank" onclick="return gtag_report_conversion(this.href);">
       WhatsApp
     </a>
   </div>
