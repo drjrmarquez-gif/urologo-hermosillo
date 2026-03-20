@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
   <!-- Google tag (gtag.js) -->
@@ -11,18 +10,18 @@
     gtag('config', 'AW-10890424360');
   </script>
   <script>
-  function gtag_report_conversion(url) {
-    var callback = function () {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
-      'send_to': 'AW-10890424360/ydAMCOLfy4wcEKjg-sgo',
-      'event_callback': callback
-    });
-    return false;
-  }
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) !== 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-10890424360/ydAMCOLfy4wcEKjg-sgo',
+        'event_callback': callback
+      });
+      return false;
+    }
   </script>
 
   <meta charset="UTF-8" />
@@ -31,15 +30,15 @@
 
   <title>Contacto | Urólogo en Hermosillo | Dr. José Ramón Márquez</title>
 
-<meta
-name="description"
-content="Contacta al Dr. José Ramón Márquez, urólogo en Hermosillo. Agenda tu cita por WhatsApp, teléfono o visítanos en Celtara Medical & Professional Center, Piso 7, consultorio 726."
-/>
-<meta
-name="keywords"
-content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Hermosillo teléfono, Celtara Medical Hermosillo urología"
-/>
-<meta name="robots" content="index, follow" />
+  <meta
+    name="description"
+    content="Contacta al Dr. José Ramón Márquez, urólogo en Hermosillo. Agenda tu cita por WhatsApp, teléfono o visítanos en Celtara Medical & Professional Center, Piso 7, consultorio 726."
+  />
+  <meta
+    name="keywords"
+    content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Hermosillo teléfono, Celtara Medical Hermosillo urología"
+  />
+  <meta name="robots" content="index, follow" />
 
   <meta property="og:title" content="Contacto | Dr. José Ramón Márquez – Urólogo en Hermosillo" />
   <meta property="og:description" content="Agenda tu cita con el Dr. Márquez por WhatsApp o teléfono. Consultorio en Celtara Medical & Professional Center, Hermosillo." />
@@ -85,12 +84,14 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
 
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
+
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
       background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
       color: var(--text);
     }
+
     img { max-width: 100%; display: block; }
     a { text-decoration: none; color: inherit; }
 
@@ -107,6 +108,7 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
       backdrop-filter: blur(10px);
       border-bottom: 1px solid rgba(219,228,236,0.9);
     }
+
     .topbar-inner {
       display: flex;
       justify-content: space-between;
@@ -114,10 +116,12 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
       gap: 16px;
       padding: 16px 0;
     }
+
     .brand { font-weight: 800; font-size: 18px; letter-spacing: -0.02em; }
     .nav { display: flex; gap: 18px; font-size: 14px; color: var(--muted); flex-wrap: wrap; }
 
     .hero { padding: 48px 0 22px; }
+
     .panel {
       background: rgba(255,255,255,0.88);
       border: 1px solid rgba(255,255,255,0.95);
@@ -125,6 +129,7 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
       box-shadow: var(--shadow);
       overflow: hidden;
     }
+
     .hero-copy { padding: 38px; }
 
     .eyebrow {
@@ -167,18 +172,22 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
       transition: 0.2s ease;
       font-size: 15px;
     }
+
     .btn:hover { transform: translateY(-1px); }
     .btn-primary { background: var(--primary); color: #fff; }
     .btn-secondary { background: #fff; color: var(--text); border-color: var(--line); }
     .btn-green { background: var(--green); color: #fff; }
 
     .section { padding: 24px 0 10px; }
+
     .section-head { margin-bottom: 18px; }
+
     .section-head h2 {
       margin: 0 0 8px;
       font-size: clamp(28px, 4vw, 42px);
       letter-spacing: -0.03em;
     }
+
     .section-head p { margin: 0; color: var(--muted); font-size: 17px; line-height: 1.7; }
 
     .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
@@ -197,12 +206,12 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
     .card p:last-child { margin-bottom: 0; }
     .card strong { color: var(--text); }
 
-    /* Contact method cards */
     .contact-method {
       display: flex;
       flex-direction: column;
       gap: 14px;
     }
+
     .contact-method .icon {
       width: 48px;
       height: 48px;
@@ -213,14 +222,30 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
       font-size: 22px;
       margin-bottom: 4px;
     }
+
     .icon-wa { background: #dcfce7; }
     .icon-tel { background: #e0f2fe; }
     .icon-pin { background: #fef9c3; }
 
-    /* Horario table */
-    .horario { width: 100%; border-collapse: collapse; margin-top: 8px; }
-    .horario td { padding: 10px 0; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 15px; }
-    .horario td:first-child { font-weight: 700; color: var(--text); width: 140px; }
+    .horario {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+    }
+
+    .horario td {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .horario td:first-child {
+      font-weight: 700;
+      color: var(--text);
+      width: 140px;
+    }
+
     .horario tr:last-child td { border-bottom: none; }
 
     .badge {
@@ -250,6 +275,7 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
       padding: 8px 0;
       margin-bottom: 8px;
     }
+
     .back-link:hover { color: var(--primary); }
 
     .floating-actions {
@@ -262,6 +288,7 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
       gap: 10px;
       align-items: flex-end;
     }
+
     .floating-btn {
       display: inline-flex;
       align-items: center;
@@ -274,6 +301,7 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
       font-weight: 800;
       box-shadow: 0 16px 30px rgba(15,23,42,0.18);
     }
+
     .floating-book { background: #0f172a; }
     .floating-call { background: var(--primary); }
     .floating-wa { background: var(--green); }
@@ -294,7 +322,6 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
       .map-frame { min-height: 280px; }
     }
   </style>
-
 </head>
 <body>
 
@@ -321,7 +348,7 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
             Agenda tu consulta con el Dr. José Ramón Márquez por WhatsApp o teléfono. Atención de lunes a viernes con cita previa. Urgencias las 24 horas.
           </p>
           <div class="cta-row">
-            <a class="btn btn-green" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" target="_blank" onclick="return gtag_report_conversion(this.href);">
+            <a class="btn btn-green" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" onclick="return gtag_report_conversion(this.href);">
               Agendar por WhatsApp
             </a>
             <a class="btn btn-secondary" href="tel:+522227526728">
@@ -332,120 +359,117 @@ content="contacto urólogo Hermosillo, cita urólogo Hermosillo, Dr Márquez Her
       </div>
     </section>
 
-```
-<section class="section">
-  <div class="container grid-3">
+    <section class="section">
+      <div class="container grid-3">
 
-    <div class="card contact-method">
-      <div class="icon icon-wa">💬</div>
-      <h3>WhatsApp</h3>
-      <p><strong>+52 662 168 2543</strong></p>
-      <p>Escribe para agendar cita, hacer preguntas o recibir orientación. Respuesta en horario de consulta.</p>
-      <a class="btn btn-green" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" target="_blank" onclick="return gtag_report_conversion(this.href);">
-        Abrir WhatsApp
-      </a>
-    </div>
+        <div class="card contact-method">
+          <div class="icon icon-wa">💬</div>
+          <h3>WhatsApp</h3>
+          <p><strong>+52 662 168 2543</strong></p>
+          <p>Escribe para agendar cita, hacer preguntas o recibir orientación. Respuesta en horario de consulta.</p>
+          <a class="btn btn-green" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" onclick="return gtag_report_conversion(this.href);">
+            Abrir WhatsApp
+          </a>
+        </div>
 
-    <div class="card contact-method">
-      <div class="icon icon-tel">📞</div>
-      <h3>Teléfono</h3>
-      <p><strong>+52 222 752 6728</strong></p>
-      <p>Línea de voz para llamadas directas. Disponible en horario de consulta. Urgencias las 24 horas.</p>
-      <a class="btn btn-primary" href="tel:+522227526728">
-        Llamar ahora
-      </a>
-    </div>
+        <div class="card contact-method">
+          <div class="icon icon-tel">📞</div>
+          <h3>Teléfono</h3>
+          <p><strong>+52 222 752 6728</strong></p>
+          <p>Línea de voz para llamadas directas. Disponible en horario de consulta. Urgencias las 24 horas.</p>
+          <a class="btn btn-primary" href="tel:+522227526728">
+            Llamar ahora
+          </a>
+        </div>
 
-    <div class="card contact-method">
-      <div class="icon icon-pin">📍</div>
-      <h3>Consultorio</h3>
-      <p><strong>Celtara Medical &amp; Professional Center</strong></p>
-      <p>Piso 7, consultorio 726.<br>Av. P.º Río San Miguel 39, Hermosillo, Sonora, 83280.</p>
-      <a class="btn btn-secondary" href="https://maps.app.goo.gl/BfE73tinQYWKjurT8" target="_blank">
-        Abrir en Google Maps
-      </a>
-    </div>
+        <div class="card contact-method">
+          <div class="icon icon-pin">📍</div>
+          <h3>Consultorio</h3>
+          <p><strong>Celtara Medical &amp; Professional Center</strong></p>
+          <p>Piso 7, consultorio 726.<br>Av. P.º Río San Miguel 39, Hermosillo, Sonora, 83280.</p>
+          <a class="btn btn-secondary" href="https://maps.app.goo.gl/BfE73tinQYWKjurT8" target="_blank" rel="noopener noreferrer">
+            Abrir en Google Maps
+          </a>
+        </div>
 
-  </div>
-</section>
-
-<section class="section">
-  <div class="container grid-2">
-
-    <div class="card">
-      <h3>Horario de atención</h3>
-      <table class="horario">
-        <tr>
-          <td>Lunes – Viernes</td>
-          <td>09:00 – 12:00</td>
-        </tr>
-        <tr>
-          <td>Lunes – Viernes</td>
-          <td>16:00 – 20:00</td>
-        </tr>
-        <tr>
-          <td>Sábado – Domingo</td>
-          <td>Cerrado</td>
-        </tr>
-        <tr>
-          <td>Urgencias</td>
-          <td>24 / 7 <span class="badge">Disponible</span></td>
-        </tr>
-      </table>
-      <p style="margin-top:16px; font-size:14px;">Solo con cita previa en horario regular. Para urgencias, contacta directamente por WhatsApp o teléfono.</p>
-    </div>
-
-    <div class="card">
-      <h3>Cédulas profesionales</h3>
-      <p>Información visible para mayor confianza del paciente.</p>
-      <table class="horario">
-        <tr>
-          <td>Cédula profesional</td>
-          <td><strong>09063588</strong></td>
-        </tr>
-        <tr>
-          <td>Cédula de especialidad</td>
-          <td><strong>12348832</strong></td>
-        </tr>
-      </table>
-      <p style="margin-top:16px; font-size:14px;">Puedes verificar las cédulas en el registro oficial de la Dirección General de Profesiones.</p>
-    </div>
-
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <div class="card">
-      <div class="section-head">
-        <h2>Ubicación</h2>
-        <p>Celtara Medical &amp; Professional Center · Piso 7, consultorio 726 · Hermosillo, Sonora.</p>
       </div>
-      <iframe
-        class="map-frame"
-        src="https://www.google.com/maps?q=Celtara%20Medical%20%26%20Professional%20Center%2C%20Piso%207%2C%20consultorio%20726%2C%20Hermosillo&output=embed"
-        loading="lazy">
-      </iframe>
-      <div class="cta-row" style="margin-top:16px; margin-bottom:0;">
-        <a class="btn btn-secondary" href="https://maps.app.goo.gl/BfE73tinQYWKjurT8" target="_blank">
-          Abrir en Google Maps
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-```
+    </section>
 
+    <section class="section">
+      <div class="container grid-2">
+
+        <div class="card">
+          <h3>Horario de atención</h3>
+          <table class="horario">
+            <tr>
+              <td>Lunes – Viernes</td>
+              <td>09:00 – 12:00</td>
+            </tr>
+            <tr>
+              <td>Lunes – Viernes</td>
+              <td>16:00 – 20:00</td>
+            </tr>
+            <tr>
+              <td>Sábado – Domingo</td>
+              <td>Cerrado</td>
+            </tr>
+            <tr>
+              <td>Urgencias</td>
+              <td>24 / 7 <span class="badge">Disponible</span></td>
+            </tr>
+          </table>
+          <p style="margin-top:16px; font-size:14px;">Solo con cita previa en horario regular. Para urgencias, contacta directamente por WhatsApp o teléfono.</p>
+        </div>
+
+        <div class="card">
+          <h3>Cédulas profesionales</h3>
+          <p>Información visible para mayor confianza del paciente.</p>
+          <table class="horario">
+            <tr>
+              <td>Cédula profesional</td>
+              <td><strong>09063588</strong></td>
+            </tr>
+            <tr>
+              <td>Cédula de especialidad</td>
+              <td><strong>12348832</strong></td>
+            </tr>
+          </table>
+          <p style="margin-top:16px; font-size:14px;">Puedes verificar las cédulas en el registro oficial de la Dirección General de Profesiones.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="card">
+          <div class="section-head">
+            <h2>Ubicación</h2>
+            <p>Celtara Medical &amp; Professional Center · Piso 7, consultorio 726 · Hermosillo, Sonora.</p>
+          </div>
+          <iframe
+            class="map-frame"
+            src="https://www.google.com/maps?q=Celtara%20Medical%20%26%20Professional%20Center%2C%20Piso%207%2C%20consultorio%20726%2C%20Hermosillo&output=embed"
+            loading="lazy">
+          </iframe>
+          <div class="cta-row" style="margin-top:16px; margin-bottom:0;">
+            <a class="btn btn-secondary" href="https://maps.app.goo.gl/BfE73tinQYWKjurT8" target="_blank" rel="noopener noreferrer">
+              Abrir en Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <div class="floating-actions">
-    <a class="floating-btn floating-book" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" target="_blank" onclick="return gtag_report_conversion(this.href);">
+    <a class="floating-btn floating-book" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta" onclick="return gtag_report_conversion(this.href);">
       Agendar consulta
     </a>
     <a class="floating-btn floating-call" href="tel:+522227526728">
       Llamar ahora
     </a>
-    <a class="floating-btn floating-wa" href="https://wa.me/526621682543" target="_blank" onclick="return gtag_report_conversion(this.href);">
+    <a class="floating-btn floating-wa" href="https://wa.me/526621682543" onclick="return gtag_report_conversion(this.href);">
       WhatsApp
     </a>
   </div>
