@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
   <!-- Google tag (gtag.js) -->
@@ -11,18 +10,18 @@
     gtag('config', 'AW-10890424360');
   </script>
   <script>
-  function gtag_report_conversion(url) {
-    var callback = function () {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
-      'send_to': 'AW-10890424360/ydAMCOLfy4wcEKjg-sgo',
-      'event_callback': callback
-    });
-    return false;
-  }
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) !== 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-10890424360/ydAMCOLfy4wcEKjg-sgo',
+        'event_callback': callback
+      });
+      return false;
+    }
   </script>
 
   <meta charset="UTF-8" />
@@ -43,54 +42,294 @@
 
   <style>
     :root {
-      --bg: #f4f7fb; --white: #ffffff; --text: #0f172a; --muted: #475569;
-      --primary: #0f766e; --primary-dark: #115e59; --green: #16a34a;
-      --line: #dbe4ec; --shadow: 0 16px 40px rgba(15,23,42,0.08);
-      --radius: 22px; --max: 1120px;
+      --bg: #f4f7fb;
+      --white: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --green: #16a34a;
+      --line: #dbe4ec;
+      --shadow: 0 16px 40px rgba(15,23,42,0.08);
+      --radius: 22px;
+      --max: 1120px;
     }
-    * { box-sizing: border-box; } html { scroll-behavior: smooth; }
-    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: linear-gradient(180deg,#f8fbff 0%,var(--bg) 100%); color: var(--text); }
-    img { max-width: 100%; display: block; } a { text-decoration: none; color: inherit; }
-    .container { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
-    .topbar { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,0.92); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(219,228,236,0.9); }
-    .topbar-inner { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 16px 0; }
-    .brand { font-weight: 800; font-size: 18px; letter-spacing: -0.02em; }
-    .nav { display: flex; gap: 18px; font-size: 14px; color: var(--muted); flex-wrap: wrap; }
-    .hero { padding: 48px 0 22px; }
-    .hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 28px; align-items: stretch; }
-    .panel { background: rgba(255,255,255,0.88); border: 1px solid rgba(255,255,255,0.95); border-radius: 28px; box-shadow: var(--shadow); overflow: hidden; }
-    .hero-copy { padding: 38px; }
-    .eyebrow { display: inline-block; margin-bottom: 16px; padding: 8px 14px; background: #ecfeff; color: var(--primary-dark); border-radius: 999px; font-size: 13px; font-weight: 700; }
-    h1 { margin: 0 0 14px; font-size: clamp(34px,5vw,58px); line-height: 1; letter-spacing: -0.04em; }
-    .lead { margin: 0 0 24px; color: var(--muted); font-size: 18px; line-height: 1.7; max-width: 62ch; }
-    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
-    .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 14px 22px; border-radius: 999px; font-weight: 700; border: 1px solid transparent; transition: 0.2s ease; }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg,#f8fbff 0%,var(--bg) 100%);
+      color: var(--text);
+    }
+
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+
+    .container {
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(219,228,236,0.9);
+    }
+
+    .topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 0;
+    }
+
+    .brand {
+      font-weight: 800;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+    }
+
+    .nav {
+      display: flex;
+      gap: 18px;
+      font-size: 14px;
+      color: var(--muted);
+      flex-wrap: wrap;
+    }
+
+    .hero {
+      padding: 48px 0 22px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .panel {
+      background: rgba(255,255,255,0.88);
+      border: 1px solid rgba(255,255,255,0.95);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero-copy {
+      padding: 38px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 14px;
+      background: #ecfeff;
+      color: var(--primary-dark);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(34px,5vw,58px);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .lead {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.7;
+      max-width: 62ch;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 14px 22px;
+      border-radius: 999px;
+      font-weight: 700;
+      border: 1px solid transparent;
+      transition: 0.2s ease;
+    }
+
     .btn:hover { transform: translateY(-1px); }
     .btn-primary { background: var(--primary); color: #fff; }
     .btn-secondary { background: #fff; color: var(--text); border-color: var(--line); }
-    .highlights { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
-    .highlight { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 16px; }
-    .highlight strong { display: block; margin-bottom: 6px; font-size: 15px; }
-    .highlight span { color: var(--muted); font-size: 14px; line-height: 1.5; }
-    .hero-photo { min-height: 100%; background: #e8eef4; }
-    .hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
-    .section { padding: 24px 0 10px; }
-    .section-head { margin-bottom: 18px; }
-    .section-head h2 { margin: 0 0 8px; font-size: clamp(28px,4vw,42px); letter-spacing: -0.03em; }
-    .section-head p { margin: 0; color: var(--muted); font-size: 17px; line-height: 1.7; }
-    .grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
-    .card { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; }
-    .tag { display: inline-block; margin-bottom: 12px; padding: 7px 12px; border-radius: 999px; background: #f0fdf4; color: #166534; font-size: 12px; font-weight: 800; }
-    .service h3 { margin: 0 0 10px; font-size: 24px; letter-spacing: -0.02em; }
-    .service p { margin: 0 0 14px; color: var(--muted); line-height: 1.7; }
-    .contact-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 18px; }
-    .contact-info p { margin: 0 0 12px; color: var(--muted); line-height: 1.75; font-size: 17px; }
-    .contact-info strong { color: var(--text); }
-    .quick-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
-    .floating-actions { position: fixed; right: 18px; bottom: 18px; z-index: 60; display: flex; flex-direction: column; gap: 10px; align-items: flex-end; }
-    .floating-btn { display: inline-flex; align-items: center; justify-content: center; min-width: 178px; min-height: 54px; padding: 14px 20px; border-radius: 999px; color: #fff; font-weight: 800; box-shadow: 0 16px 30px rgba(15,23,42,0.18); }
-    .floating-book { background: #0f172a; } .floating-call { background: var(--primary); } .floating-wa { background: var(--green); }
-    footer { padding: 34px 0 110px; text-align: center; color: #64748b; font-size: 15px; }
+
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 14px;
+    }
+
+    .highlight {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+    }
+
+    .highlight strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 15px;
+    }
+
+    .highlight span {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .hero-photo {
+      min-height: 100%;
+      background: #e8eef4;
+    }
+
+    .hero-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .section {
+      padding: 24px 0 10px;
+    }
+
+    .section-head {
+      margin-bottom: 18px;
+    }
+
+    .section-head h2 {
+      margin: 0 0 8px;
+      font-size: clamp(28px,4vw,42px);
+      letter-spacing: -0.03em;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: #f0fdf4;
+      color: #166534;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .service h3 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      letter-spacing: -0.02em;
+    }
+
+    .service p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 18px;
+    }
+
+    .contact-info p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      line-height: 1.75;
+      font-size: 17px;
+    }
+
+    .contact-info strong {
+      color: var(--text);
+    }
+
+    .quick-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .floating-actions {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 60;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-end;
+    }
+
+    .floating-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 178px;
+      min-height: 54px;
+      padding: 14px 20px;
+      border-radius: 999px;
+      color: #fff;
+      font-weight: 800;
+      box-shadow: 0 16px 30px rgba(15,23,42,0.18);
+    }
+
+    .floating-book { background: #0f172a; }
+    .floating-call { background: var(--primary); }
+    .floating-wa { background: var(--green); }
+
+    footer {
+      padding: 34px 0 110px;
+      text-align: center;
+      color: #64748b;
+      font-size: 15px;
+    }
+
     @media (max-width:900px) {
       .nav { display: none; }
       .hero-grid, .grid-3, .contact-grid, .highlights { grid-template-columns: 1fr; }
@@ -99,7 +338,6 @@
       .floating-btn { width: 100%; min-width: 0; }
     }
   </style>
-
 </head>
 <body>
   <header class="topbar">
@@ -123,15 +361,24 @@
           <h1>Piedras en riñón en Hermosillo</h1>
           <p class="lead">Los cálculos urinarios pueden provocar dolor intenso, obstrucción urinaria e infecciones. El Dr. José Ramón Márquez ofrece valoración y tratamiento especializado para piedras en riñón en Hermosillo.</p>
           <div class="cta-row">
-            <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta%20por%20piedras%20en%20el%20ri%C3%B1%C3%B3n" target="_blank" onclick="return gtag_report_conversion(this.href);">
+            <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta%20por%20piedras%20en%20el%20ri%C3%B1%C3%B3n" onclick="return gtag_report_conversion(this.href);">
               Agendar por WhatsApp
             </a>
             <a class="btn btn-secondary" href="tel:+522227526728">Llamar ahora</a>
           </div>
           <div class="highlights">
-            <div class="highlight"><strong>Dolor intenso</strong><span>Atención para dolor en espalda, costado o síntomas sugestivos de cálculos urinarios.</span></div>
-            <div class="highlight"><strong>Valoración urológica</strong><span>Definición diagnóstica y plan de tratamiento según localización y tamaño del cálculo.</span></div>
-            <div class="highlight"><strong>Tratamiento moderno</strong><span>Opciones terapéuticas para resolver piedras en el riñón y prevenir recurrencias.</span></div>
+            <div class="highlight">
+              <strong>Dolor intenso</strong>
+              <span>Atención para dolor en espalda, costado o síntomas sugestivos de cálculos urinarios.</span>
+            </div>
+            <div class="highlight">
+              <strong>Valoración urológica</strong>
+              <span>Definición diagnóstica y plan de tratamiento según localización y tamaño del cálculo.</span>
+            </div>
+            <div class="highlight">
+              <strong>Tratamiento moderno</strong>
+              <span>Opciones terapéuticas para resolver piedras en el riñón y prevenir recurrencias.</span>
+            </div>
           </div>
         </div>
         <div class="panel hero-photo">
@@ -140,58 +387,91 @@
       </div>
     </section>
 
-```
-<section class="section">
-  <div class="container">
-    <div class="section-head"><h2>Síntomas frecuentes</h2><p>Algunos signos frecuentes que pueden presentarse con piedras en riñón o cálculos urinarios.</p></div>
-    <div class="grid-3">
-      <article class="card service"><div class="tag">Dolor</div><h3>Dolor en espalda o costado</h3><p>Puede presentarse como dolor intenso y repentino en costado, espalda o abdomen.</p></article>
-      <article class="card service"><div class="tag">Orina</div><h3>Sangre en la orina</h3><p>La presencia de sangre en la orina puede acompañar a los cálculos urinarios.</p></article>
-      <article class="card service"><div class="tag">Síntomas urinarios</div><h3>Molestias al orinar</h3><p>Dolor, ardor al orinar o urgencia urinaria pueden presentarse según la localización del cálculo.</p></article>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="tratamiento">
-  <div class="container">
-    <div class="section-head"><h2>Opciones de tratamiento</h2><p>El tratamiento depende del tamaño, localización del cálculo y síntomas del paciente.</p></div>
-    <div class="grid-3">
-      <article class="card service"><div class="tag">Manejo</div><h3>Tratamiento médico</h3><p>En algunos casos se indica manejo conservador, hidratación y seguimiento especializado.</p></article>
-      <article class="card service"><div class="tag">Evaluación</div><h3>Valoración urológica</h3><p>La valoración clínica y de imagen permite definir la estrategia más adecuada.</p></article>
-      <article class="card service"><div class="tag">Cirugía</div><h3>Cirugía para cálculos urinarios</h3><p>En casos seleccionados se puede requerir tratamiento endourológico o cirugía para resolver el problema.</p></article>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="contacto">
-  <div class="container contact-grid">
-    <div class="card contact-info">
-      <div class="section-head"><h2>Agenda tu consulta</h2><p>Atención especializada para piedras en riñón, dolor urinario y cálculos renales en Hermosillo.</p></div>
-      <p><strong>Dr. José Ramón Márquez</strong><br>Urólogo en Hermosillo</p>
-      <p><strong>Ubicación:</strong> Celtara Medical &amp; Professional Center, Piso 7, consultorio 726.</p>
-      <div class="quick-actions">
-        <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta%20por%20piedras%20en%20el%20ri%C3%B1%C3%B3n" target="_blank" onclick="return gtag_report_conversion(this.href);">
-          Agendar por WhatsApp
-        </a>
-        <a class="btn btn-secondary" href="tel:+522227526728">Llamar ahora</a>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Síntomas frecuentes</h2>
+          <p>Algunos signos frecuentes que pueden presentarse con piedras en riñón o cálculos urinarios.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card service">
+            <div class="tag">Dolor</div>
+            <h3>Dolor en espalda o costado</h3>
+            <p>Puede presentarse como dolor intenso y repentino en costado, espalda o abdomen.</p>
+          </article>
+          <article class="card service">
+            <div class="tag">Orina</div>
+            <h3>Sangre en la orina</h3>
+            <p>La presencia de sangre en la orina puede acompañar a los cálculos urinarios.</p>
+          </article>
+          <article class="card service">
+            <div class="tag">Síntomas urinarios</div>
+            <h3>Molestias al orinar</h3>
+            <p>Dolor, ardor al orinar o urgencia urinaria pueden presentarse según la localización del cálculo.</p>
+          </article>
+        </div>
       </div>
-    </div>
-    <div class="card contact-info">
-      <div class="section-head"><h2>¿Presentas dolor o molestias urinarias?</h2><p>Si presentas dolor intenso, sangre en la orina o dolor al orinar, agenda una valoración especializada.</p></div>
-      <p>La atención oportuna ayuda a definir el tratamiento más indicado y prevenir complicaciones.</p>
-    </div>
-  </div>
-</section>
-```
+    </section>
 
+    <section class="section" id="tratamiento">
+      <div class="container">
+        <div class="section-head">
+          <h2>Opciones de tratamiento</h2>
+          <p>El tratamiento depende del tamaño, localización del cálculo y síntomas del paciente.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card service">
+            <div class="tag">Manejo</div>
+            <h3>Tratamiento médico</h3>
+            <p>En algunos casos se indica manejo conservador, hidratación y seguimiento especializado.</p>
+          </article>
+          <article class="card service">
+            <div class="tag">Evaluación</div>
+            <h3>Valoración urológica</h3>
+            <p>La valoración clínica y de imagen permite definir la estrategia más adecuada.</p>
+          </article>
+          <article class="card service">
+            <div class="tag">Cirugía</div>
+            <h3>Cirugía para cálculos urinarios</h3>
+            <p>En casos seleccionados se puede requerir tratamiento endourológico o cirugía para resolver el problema.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="container contact-grid">
+        <div class="card contact-info">
+          <div class="section-head">
+            <h2>Agenda tu consulta</h2>
+            <p>Atención especializada para piedras en riñón, dolor urinario y cálculos renales en Hermosillo.</p>
+          </div>
+          <p><strong>Dr. José Ramón Márquez</strong><br>Urólogo en Hermosillo</p>
+          <p><strong>Ubicación:</strong> Celtara Medical &amp; Professional Center, Piso 7, consultorio 726.</p>
+          <div class="quick-actions">
+            <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta%20por%20piedras%20en%20el%20ri%C3%B1%C3%B3n" onclick="return gtag_report_conversion(this.href);">
+              Agendar por WhatsApp
+            </a>
+            <a class="btn btn-secondary" href="tel:+522227526728">Llamar ahora</a>
+          </div>
+        </div>
+        <div class="card contact-info">
+          <div class="section-head">
+            <h2>¿Presentas dolor o molestias urinarias?</h2>
+            <p>Si presentas dolor intenso, sangre en la orina o dolor al orinar, agenda una valoración especializada.</p>
+          </div>
+          <p>La atención oportuna ayuda a definir el tratamiento más indicado y prevenir complicaciones.</p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <div class="floating-actions">
-    <a class="floating-btn floating-book" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta%20por%20piedras%20en%20el%20ri%C3%B1%C3%B3n" target="_blank" onclick="return gtag_report_conversion(this.href);">
+    <a class="floating-btn floating-book" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta%20por%20piedras%20en%20el%20ri%C3%B1%C3%B3n" onclick="return gtag_report_conversion(this.href);">
       Agendar consulta
     </a>
     <a class="floating-btn floating-call" href="tel:+522227526728">Llamar ahora</a>
-    <a class="floating-btn floating-wa" href="https://wa.me/526621682543" target="_blank" onclick="return gtag_report_conversion(this.href);">
+    <a class="floating-btn floating-wa" href="https://wa.me/526621682543" onclick="return gtag_report_conversion(this.href);">
       WhatsApp
     </a>
   </div>
