@@ -12,15 +12,22 @@
 
   <script>
     function gtag_report_conversion(url) {
+      var callbackExecuted = false;
+
       var callback = function () {
+        if (callbackExecuted) return;
+        callbackExecuted = true;
         if (typeof(url) !== 'undefined') {
-          window.location = url;
+          window.location.href = url;
         }
       };
+
       gtag('event', 'conversion', {
         'send_to': 'AW-10890424360/ydAMCOLfy4wcEKjg-sgo',
         'event_callback': callback
       });
+
+      setTimeout(callback, 1200);
       return false;
     }
   </script>
