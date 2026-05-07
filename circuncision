@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10890424360"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-10890424360');
+  </script>
+
+  <script>
+    function gtag_report_conversion(url) {
+      var callbackExecuted = false;
+
+      var callback = function () {
+        if (callbackExecuted) return;
+        callbackExecuted = true;
+        if (typeof(url) !== 'undefined') {
+          window.location.href = url;
+        }
+      };
+
+      gtag('event', 'conversion', {
+        'send_to': 'AW-10890424360/ydAMCOLfy4wcEKjg-sgo',
+        'event_callback': callback
+      });
+
+      setTimeout(callback, 1200);
+      return false;
+    }
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="canonical" href="https://www.urologohermosillo.mx/circuncision.html" />
+
+  <title>Circuncisión en Hermosillo | Cirugía para Fimosis | Dr. José Ramón Márquez</title>
+
+  <meta
+    name="description"
+    content="Circuncisión en Hermosillo para adultos. Valoración por urólogo para fimosis, balanitis recurrente, frenillo corto y problemas del prepucio. Agenda por WhatsApp."
+  />
+
+  <meta
+    name="keywords"
+    content="circuncisión Hermosillo, circuncision Hermosillo, circuncisión adultos Hermosillo, cirugía de circuncisión Hermosillo, operación fimosis Hermosillo, fimosis adultos Hermosillo, urólogo circuncisión Hermosillo, problemas del prepucio Hermosillo"
+  />
+
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="Circuncisión en Hermosillo | Dr. José Ramón Márquez" />
+  <meta
+    property="og:description"
+    content="Valoración urológica para circuncisión en adultos, fimosis, frenillo corto y balanitis recurrente en Hermosillo."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.urologohermosillo.mx/circuncision.html" />
+  <meta property="og:image" content="https://www.urologohermosillo.mx/doctor.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dr. José Ramón Márquez",
+    "medicalSpecialty": "Urology",
+    "url": "https://www.urologohermosillo.mx/circuncision.html",
+    "telephone": "+52 662 168 2543",
+    "image": "https://www.urologohermosillo.mx/doctor.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. P.º Río San Miguel 39",
+      "addressLocality": "Hermosillo",
+      "addressRegion": "Sonora",
+      "postalCode": "83280",
+      "addressCountry": "MX"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿La circuncisión se puede realizar en adultos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. La circuncisión puede realizarse en adultos cuando existe fimosis, balanitis recurrente, molestias del prepucio, frenillo corto o dificultad para retraer el prepucio."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuándo se recomienda valorar una circuncisión?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se recomienda valoración urológica si hay dificultad para retraer el prepucio, inflamación recurrente, infecciones, dolor, molestias durante la actividad sexual o problemas de higiene."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto tarda la recuperación de una circuncisión?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La recuperación inicial suele tomar algunos días, aunque el tiempo exacto depende de cada paciente y del seguimiento indicado por el urólogo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Dónde se realiza la valoración para circuncisión en Hermosillo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La valoración se realiza en Celtara Medical & Professional Center, Piso 7, consultorio 726, en Hermosillo, Sonora."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --white: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --green: #16a34a;
+      --line: #dbe4ec;
+      --shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+      --radius: 22px;
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(219, 228, 236, 0.9);
+    }
+
+    .topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 0;
+    }
+
+    .brand {
+      font-weight: 800;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+    }
+
+    .nav {
+      display: flex;
+      gap: 18px;
+      font-size: 14px;
+      color: var(--muted);
+      flex-wrap: wrap;
+    }
+
+    .hero {
+      padding: 48px 0 22px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .panel {
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid rgba(255, 255, 255, 0.95);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero-copy {
+      padding: 38px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 8px 14px;
+      background: #ecfeff;
+      color: var(--primary-dark);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(34px, 5vw, 58px);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .lead {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.7;
+      max-width: 62ch;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 14px 22px;
+      border-radius: 999px;
+      font-weight: 700;
+      border: 1px solid transparent;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .btn-secondary {
+      background: #fff;
+      color: var(--text);
+      border-color: var(--line);
+    }
+
+    .hero-photo {
+      min-height: 100%;
+      background: #e8eef4;
+    }
+
+    .hero-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 8px;
+    }
+
+    .highlight {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+    }
+
+    .highlight strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 15px;
+    }
+
+    .highlight span {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .section {
+      padding: 24px 0 10px;
+    }
+
+    .section-head {
+      margin-bottom: 18px;
+    }
+
+    .section-head h2 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 4vw, 42px);
+      letter-spacing: -0.03em;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: #f0fdf4;
+      color: #166534;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .service h3 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      letter-spacing: -0.02em;
+    }
+
+    .service p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .service ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .btn-service { margin-top: 16px; }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 18px;
+    }
+
+    .contact-info p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      line-height: 1.75;
+      font-size: 17px;
+    }
+
+    .contact-info strong { color: var(--text); }
+
+    .quick-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .map-frame {
+      width: 100%;
+      min-height: 340px;
+      border: 0;
+      border-radius: 20px;
+    }
+
+    .floating-actions {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 60;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-end;
+    }
+
+    .floating-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 178px;
+      min-height: 54px;
+      padding: 14px 20px;
+      border-radius: 999px;
+      color: #fff;
+      font-weight: 800;
+      box-shadow: 0 16px 30px rgba(15, 23, 42, 0.18);
+    }
+
+    .floating-book { background: #0f172a; }
+    .floating-call { background: var(--primary); }
+    .floating-wa { background: var(--green); }
+
+    footer {
+      padding: 34px 0 110px;
+      text-align: center;
+      color: #64748b;
+      font-size: 15px;
+    }
+
+    @media (max-width: 900px) {
+      .nav { display: none; }
+
+      .hero-grid,
+      .grid-3,
+      .grid-2,
+      .contact-grid,
+      .highlights {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-copy { padding: 28px; }
+
+      .floating-actions {
+        left: 14px;
+        right: 14px;
+        align-items: stretch;
+      }
+
+      .floating-btn {
+        width: 100%;
+        min-width: 0;
+      }
+
+      .map-frame { min-height: 280px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">Dr. José Ramón Márquez</div>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="#indicaciones">Indicaciones</a>
+        <a href="#recuperacion">Recuperación</a>
+        <a href="#faq">Preguntas frecuentes</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="panel hero-copy">
+          <div class="eyebrow">Circuncisión en Hermosillo</div>
+
+          <h1>Circuncisión en Hermosillo</h1>
+
+          <p class="lead">
+            Valoración urológica para circuncisión en adultos, fimosis, frenillo corto, balanitis recurrente y molestias del prepucio. Atención por el Dr. José Ramón Márquez, urólogo en Hermosillo.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20Dr.%20Jos%C3%A9%20Ram%C3%B3n%2C%20quiero%20agendar%20valoraci%C3%B3n%20para%20circuncisi%C3%B3n" onclick="return gtag_report_conversion(this.href);">
+              Agendar por WhatsApp
+            </a>
+
+            <a class="btn btn-secondary" href="tel:+526621682543">
+              Llamar ahora
+            </a>
+          </div>
+
+          <div class="highlights">
+            <div class="highlight">
+              <strong>Fimosis</strong>
+              <span>Dificultad para retraer el prepucio o molestias asociadas.</span>
+            </div>
+
+            <div class="highlight">
+              <strong>Balanitis recurrente</strong>
+              <span>Inflamación, irritación o infecciones repetidas del prepucio o glande.</span>
+            </div>
+
+            <div class="highlight">
+              <strong>Circuncisión en adultos</strong>
+              <span>Valoración para definir si el procedimiento es adecuado en tu caso.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel hero-photo">
+          <img src="doctor.jpg" alt="Dr. José Ramón Márquez, urólogo para circuncisión en Hermosillo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="indicaciones">
+      <div class="container">
+        <div class="section-head">
+          <h2>¿Cuándo considerar una circuncisión?</h2>
+          <p>
+            La circuncisión puede indicarse por motivos médicos cuando existen molestias o enfermedades relacionadas con el prepucio.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card service">
+            <div class="tag">Fimosis</div>
+            <h3>Dificultad para retraer el prepucio</h3>
+            <p>
+              Cuando el prepucio no baja adecuadamente, puede causar dolor, molestias, inflamación o dificultad para la higiene.
+            </p>
+          </article>
+
+          <article class="card service">
+            <div class="tag">Inflamación</div>
+            <h3>Balanitis recurrente</h3>
+            <p>
+              La inflamación repetida del glande o prepucio puede requerir valoración urológica para definir tratamiento.
+            </p>
+          </article>
+
+          <article class="card service">
+            <div class="tag">Molestias</div>
+            <h3>Dolor o incomodidad</h3>
+            <p>
+              Puede haber molestias durante la actividad sexual, higiene, erecciones o retracción del prepucio.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Circuncisión en adultos</h2>
+          <p>
+            La valoración permite identificar si existe fimosis, frenillo corto, inflamación recurrente u otra condición que justifique tratamiento.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card service">
+            <h3>Valoración urológica</h3>
+            <p>
+              Durante la consulta se revisan los síntomas, antecedentes, exploración física y expectativas del paciente. Con esto se define si la circuncisión es la mejor opción o si existe una alternativa de manejo.
+            </p>
+            <ul>
+              <li>Revisión de síntomas</li>
+              <li>Exploración clínica</li>
+              <li>Explicación del procedimiento</li>
+              <li>Plan de tratamiento personalizado</li>
+            </ul>
+          </article>
+
+          <article class="card service">
+            <h3>Procedimiento programado</h3>
+            <p>
+              En caso de ser candidato, se explica el procedimiento, cuidados posteriores, tiempo de recuperación y señales de alarma. La decisión se toma de forma individualizada.
+            </p>
+            <ul>
+              <li>Orientación preoperatoria</li>
+              <li>Cuidados posteriores</li>
+              <li>Seguimiento urológico</li>
+              <li>Indicaciones claras para recuperación</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="recuperacion">
+      <div class="container">
+        <div class="section-head">
+          <h2>Recuperación después de una circuncisión</h2>
+          <p>
+            El tiempo de recuperación puede variar según cada paciente, pero se indican cuidados específicos para disminuir molestias y favorecer una adecuada evolución.
+          </p>
+        </div>
+
+        <div class="card service">
+          <h3>Cuidados posteriores</h3>
+          <p>
+            Después del procedimiento se dan indicaciones sobre higiene, actividad física, medicamentos, revisión de la herida y seguimiento. También se explican los tiempos aproximados para volver a actividades habituales.
+          </p>
+
+          <ul>
+            <li>Cuidados de la herida</li>
+            <li>Control de dolor e inflamación</li>
+            <li>Recomendaciones de actividad física</li>
+            <li>Seguimiento postoperatorio</li>
+            <li>Orientación sobre actividad sexual posterior</li>
+          </ul>
+
+          <a class="btn btn-primary btn-service" href="https://wa.me/526621682543?text=Hola%20Dr.%20Jos%C3%A9%20Ram%C3%B3n%2C%20quiero%20informaci%C3%B3n%20sobre%20recuperaci%C3%B3n%20de%20circuncisi%C3%B3n" onclick="return gtag_report_conversion(this.href);">
+            Preguntar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <h2>Preguntas frecuentes sobre circuncisión</h2>
+          <p>
+            Información útil para pacientes que buscan circuncisión en Hermosillo.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>¿La circuncisión se realiza en adultos?</h3>
+            <p>
+              Sí. Puede realizarse en adultos cuando hay fimosis, balanitis recurrente, frenillo corto o molestias relacionadas con el prepucio.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>¿Cuándo debo acudir a valoración?</h3>
+            <p>
+              Si tienes dificultad para retraer el prepucio, inflamación repetida, dolor, heridas, molestias durante relaciones o problemas de higiene.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>¿La recuperación es rápida?</h3>
+            <p>
+              La recuperación inicial suele ser de algunos días, pero el tiempo exacto depende de cada paciente y de las indicaciones posteriores.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>¿Sirve para balanitis recurrente?</h3>
+            <p>
+              En algunos casos puede ser parte del tratamiento cuando hay inflamación o infecciones repetidas del glande o prepucio.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>¿Qué es fimosis?</h3>
+            <p>
+              Es la dificultad o imposibilidad para retraer adecuadamente el prepucio. Puede causar dolor, inflamación o molestias.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>¿Dónde se atiende?</h3>
+            <p>
+              En Celtara Medical &amp; Professional Center, Piso 7, consultorio 726, en Hermosillo, Sonora.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="container contact-grid">
+        <div class="card contact-info">
+          <div class="section-head">
+            <h2>Agenda valoración para circuncisión</h2>
+            <p>
+              Consulta con el Dr. José Ramón Márquez, urólogo en Hermosillo.
+            </p>
+          </div>
+
+          <p>
+            <strong>Ubicación:</strong>
+            Celtara Medical &amp; Professional Center, Piso 7, consultorio 726.
+            Av. P.º Río San Miguel 39, Proyecto Rio Sonora Hermosillo XXI, 83280 Hermosillo, Son.
+          </p>
+
+          <p>
+            <strong>Atención:</strong>
+            Consulta privada con cita. Agenda por WhatsApp para recibir orientación inicial y disponibilidad.
+          </p>
+
+          <div class="quick-actions">
+            <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20Dr.%20Jos%C3%A9%20Ram%C3%B3n%2C%20quiero%20agendar%20valoraci%C3%B3n%20para%20circuncisi%C3%B3n" onclick="return gtag_report_conversion(this.href);">
+              Agendar por WhatsApp
+            </a>
+
+            <a class="btn btn-secondary" href="tel:+526621682543">
+              Llamar ahora
+            </a>
+
+            <a class="btn btn-secondary" href="index.html">
+              Volver al inicio
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-head">
+            <h2>Ubicación</h2>
+            <p>Abre la ruta al consultorio en Google Maps.</p>
+          </div>
+
+          <iframe
+            class="map-frame"
+            src="https://www.google.com/maps?q=Celtara%20Medical%20%26%20Professional%20Center%2C%20Piso%207%2C%20consultorio%20726%2C%20Hermosillo&output=embed"
+            loading="lazy">
+          </iframe>
+
+          <div class="quick-actions">
+            <a class="btn btn-secondary" href="https://maps.app.goo.gl/BfE73tinQYWKjurT8" target="_blank" rel="noopener noreferrer">
+              Abrir en Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="floating-actions">
+    <a class="floating-btn floating-book" href="https://wa.me/526621682543?text=Hola%20Dr.%20Jos%C3%A9%20Ram%C3%B3n%2C%20quiero%20agendar%20valoraci%C3%B3n%20para%20circuncisi%C3%B3n" onclick="return gtag_report_conversion(this.href);">
+      Agendar valoración
+    </a>
+
+    <a class="floating-btn floating-call" href="tel:+526621682543">
+      Llamar ahora
+    </a>
+
+    <a class="floating-btn floating-wa" href="https://wa.me/526621682543?text=Hola%20Dr.%20Jos%C3%A9%20Ram%C3%B3n%2C%20quiero%20informaci%C3%B3n%20sobre%20circuncisi%C3%B3n" onclick="return gtag_report_conversion(this.href);">
+      WhatsApp
+    </a>
+  </div>
+
+  <footer>
+    © Dr. José Ramón Márquez · Circuncisión en Hermosillo · Urólogo en Hermosillo
+  </footer>
+
+</body>
+</html>
