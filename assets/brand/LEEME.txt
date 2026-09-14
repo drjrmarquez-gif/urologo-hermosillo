@@ -1,0 +1,26 @@
+PAQUETE OFICIAL — DR. JOSÉ RAMÓN MÁRQUEZ
+UROLOGÍA · CIRUGÍA UROLÓGICA
+
+Este paquete deriva del logo maestro aprobado, sin volver a generarlo.
+
+ARCHIVOS
+01 Logo Maestro Aprobado: original exacto sobre fondo blanco.
+02 Logo Principal Transparente: uso general digital.
+03 Isotipo Transparente: símbolo sin texto.
+04 Avatar Fondo Blanco 1024: perfiles.
+05 Avatar Fondo Azul 1024: perfiles sobre azul corporativo.
+06 Favicons: 512, 192, 180, 64 y 32 px.
+
+COLORES DE REFERENCIA
+Azul principal: #0D2B45
+Azul secundario: #3A6C8E
+Dorado: #C9A67A
+
+TIPOGRAFÍA DE MARCA
+Montserrat Semibold — nombre.
+Montserrat Regular/Medium — descriptor.
+
+IMPORTANTE
+No deformar, recolorear, añadir sombras, degradados ni efectos 3D.
+Para imprenta, rotulación de gran formato o bordado profesional conviene vectorizar
+el maestro aprobado manualmente (SVG/EPS/PDF vectorial) para máxima precisión.

@@ -10,28 +10,6 @@
     gtag('config', 'AW-10890424360');
   </script>
 
-  <script>
-    function gtag_report_conversion(url) {
-      var callbackExecuted = false;
-
-      var callback = function () {
-        if (callbackExecuted) return;
-        callbackExecuted = true;
-        if (typeof(url) !== 'undefined') {
-          window.location.href = url;
-        }
-      };
-
-      gtag('event', 'conversion', {
-        'send_to': 'AW-10890424360/ydAMCOLfy4wcEKjg-sgo',
-        'event_callback': callback
-      });
-
-      setTimeout(callback, 1200);
-      return false;
-    }
-  </script>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -64,285 +42,35 @@
   <meta property="og:url" content="https://www.urologohermosillo.mx/" />
   <meta property="og:image" content="https://www.urologohermosillo.mx/doctor.jpg" />
 
-  <style>
-    :root {
-      --bg: #f4f7fb;
-      --white: #ffffff;
-      --text: #0f172a;
-      --muted: #475569;
-      --primary: #0f766e;
-      --primary-dark: #115e59;
-      --green: #16a34a;
-      --line: #dbe4ec;
-      --shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
-      --radius: 22px;
-      --max: 1120px;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
-      color: var(--text);
-    }
-
-    img {
-      max-width: 100%;
-      display: block;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .container {
-      width: min(var(--max), calc(100% - 32px));
-      margin: 0 auto;
-    }
-
-    .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: rgba(255,255,255,0.92);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(219,228,236,0.9);
-    }
-
-    .topbar-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 16px;
-      padding: 16px 0;
-    }
-
-    .brand {
-      font-weight: 800;
-      font-size: 18px;
-    }
-
-    .nav {
-      display: flex;
-      gap: 18px;
-      font-size: 14px;
-      color: var(--muted);
-      flex-wrap: wrap;
-    }
-
-    .hero {
-      padding: 48px 0 22px;
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
-      gap: 28px;
-      align-items: stretch;
-    }
-
-    .panel {
-      background: rgba(255,255,255,0.88);
-      border-radius: 28px;
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-
-    .hero-copy {
-      padding: 38px;
-    }
-
-    .eyebrow {
-      display: inline-block;
-      margin-bottom: 16px;
-      padding: 8px 14px;
-      background: #ecfeff;
-      color: var(--primary-dark);
-      border-radius: 999px;
-      font-size: 13px;
-      font-weight: 700;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      font-size: clamp(34px, 5vw, 58px);
-      line-height: 1;
-    }
-
-    .lead {
-      margin: 0 0 24px;
-      color: var(--muted);
-      font-size: 18px;
-      line-height: 1.7;
-    }
-
-    .cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-bottom: 24px;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 52px;
-      padding: 14px 22px;
-      border-radius: 999px;
-      font-weight: 700;
-      border: 1px solid transparent;
-    }
-
-    .btn-primary {
-      background: var(--primary);
-      color: #fff;
-    }
-
-    .btn-secondary {
-      background: #fff;
-      color: var(--text);
-      border-color: var(--line);
-    }
-
-    .hero-photo img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center top;
-    }
-
-    .section {
-      padding: 24px 0 10px;
-    }
-
-    .section-head {
-      margin-bottom: 18px;
-    }
-
-    .section-head h2 {
-      margin: 0 0 8px;
-      font-size: clamp(28px, 4vw, 42px);
-    }
-
-    .section-head p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.7;
-    }
-
-    .grid-4 {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 18px;
-    }
-
-    .grid-3 {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 18px;
-    }
-
-    .card {
-      background: var(--white);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 24px;
-    }
-
-    .tag {
-      display: inline-block;
-      margin-bottom: 12px;
-      padding: 7px 12px;
-      border-radius: 999px;
-      background: #f0fdf4;
-      color: #166534;
-      font-size: 12px;
-      font-weight: 800;
-    }
-
-    .service h3 {
-      margin: 0 0 10px;
-      font-size: 24px;
-    }
-
-    .service p {
-      margin: 0 0 14px;
-      color: var(--muted);
-      line-height: 1.7;
-    }
-
-    .service ul {
-      margin: 0;
-      padding-left: 18px;
-      color: var(--muted);
-      line-height: 1.8;
-    }
-
-    .btn-service {
-      margin-top: 16px;
-    }
-
-    footer {
-      padding: 34px 0 110px;
-      text-align: center;
-      color: #64748b;
-      font-size: 15px;
-    }
-
-    @media (max-width: 1000px) {
-      .grid-4 {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
-    @media (max-width: 900px) {
-
-      .nav {
-        display: none;
-      }
-
-      .hero-grid,
-      .grid-4,
-      .grid-3 {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-copy {
-        padding: 28px;
-      }
-    }
-  </style>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/06_Favicon_32x32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/brand/06_Favicon_64x64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/06_Favicon_180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/brand/06_Favicon_192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/brand/06_Favicon_512x512.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/site.js"></script>
 </head>
 
-<body>
+<body class="page-home">
 
 <header class="topbar">
   <div class="container topbar-inner">
-
-    <div class="brand">
-      Dr. José Ramón Márquez
-    </div>
-
-    <nav class="nav">
-        <a href="urologo-hermosillo.html">Urología general</a>
-        <a href="prostata.html">Próstata / HOLEP</a>
-        <a href="calculos.html">Cálculos / láser</a>
-        <a href="vasectomia.html">Vasectomía</a>
-        <a href="circuncision.html">Circuncisión</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
-
+    <a href="index.html" class="brand" aria-label="Dr. José Ramón Márquez, inicio">
+      <img src="assets/brand/02_Logo_Principal_Transparente_Web.png" alt="Dr. José Ramón Márquez, urólogo en Hermosillo" width="320" height="206">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Abrir menú</span></button>
+    <nav class="nav" id="site-nav" aria-label="Navegación principal">
+      <a href="prostata.html">Próstata / HOLEP</a>
+      <a href="calculos.html">Cálculos / láser</a>
+      <a href="vasectomia.html">Vasectomía</a>
+      <a href="circuncision.html">Circuncisión</a>
+      <a href="urologo-hermosillo.html">Urología general</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
   </div>
 </header>
 
@@ -381,6 +109,7 @@
         >
           Llamar ahora
         </a>
+        <a class="btn btn-urgent" href="tel:+522227526728">Urgencias urológicas 24/7</a>
 
       </div>
 
@@ -388,7 +117,7 @@
 
     <div class="panel hero-photo">
       <img
-        src="doctor.jpg"
+        src="assets/images/doctor.jpg"
         alt="Dr José Ramón Márquez urólogo en Hermosillo"
       />
     </div>
@@ -411,6 +140,7 @@
     <div class="grid-4">
 
       <a class="card service" href="prostata.html">
+        <img class="card-visual" src="assets/images/prostata-holep.svg" alt="Ilustración de cirugía de próstata HOLEP" width="640" height="400" loading="lazy">
 
         <div class="tag">Próstata</div>
 
@@ -431,6 +161,7 @@
       </a>
 
       <a class="card service" href="calculos.html">
+        <img class="card-visual" src="assets/images/calculos-laser.svg" alt="Ilustración de cirugía láser para cálculos" width="640" height="400" loading="lazy">
 
         <div class="tag">Cálculos</div>
 
@@ -451,6 +182,7 @@
       </a>
 
       <a class="card service" href="vasectomia.html">
+        <img class="card-visual" src="assets/images/vasectomia.svg" alt="Ilustración de vasectomía ambulatoria" width="640" height="400" loading="lazy">
 
         <div class="tag">Vasectomía</div>
 
@@ -471,6 +203,7 @@
       </a>
 
       <a class="card service" href="circuncision.html">
+        <img class="card-visual" src="assets/images/circuncision.svg" alt="Ilustración discreta de circuncisión" width="640" height="400" loading="lazy">
 
         <div class="tag">Circuncisión</div>
 
@@ -537,6 +270,16 @@
   </div>
 </section>
 
+
+<section class="section priorities" aria-labelledby="atencion-prioritaria">
+  <div class="container">
+    <div class="section-head"><span class="section-kicker">Atención cuando la necesitas</span><h2 id="atencion-prioritaria">Urgencias y consulta urológica</h2><p>Dos rutas claras de atención, con teléfonos separados según la necesidad.</p></div>
+    <div class="grid-2">
+      <article class="card service urgent-card"><img class="card-visual" src="assets/images/urgencias.svg" alt="Atención de urgencias urológicas las 24 horas" width="640" height="400" loading="lazy"><div class="tag">24/7</div><h3>Urgencias urológicas</h3><p>Atención para dolor intenso por cálculos, retención urinaria y otras urgencias urológicas.</p><a class="btn btn-urgent btn-service" href="tel:+522227526728">Línea exclusiva: +52 222 752 6728</a></article>
+      <article class="card service"><img class="card-visual" src="assets/images/consulta-urologica.svg" alt="Consulta urológica personalizada en Hermosillo" width="640" height="400" loading="lazy"><div class="tag">Consulta</div><h3>Urología general</h3><p>Valoración personalizada de síntomas urinarios, salud masculina, infecciones y prevención.</p><a class="btn btn-primary btn-service" href="urologo-hermosillo.html">Conocer la consulta</a></article>
+    </div>
+  </div>
+</section>
 <section class="section" id="contacto">
 
   <div class="container">
@@ -597,9 +340,7 @@
 
 </main>
 
-<footer>
-  © Dr. José Ramón Márquez · Urólogo en Hermosillo
-</footer>
+<footer class="site-footer"><div class="container footer-grid"><div><img src="assets/brand/03_Isotipo_Transparente.png" alt="" width="72" height="58" loading="lazy"><strong>Dr. José Ramón Márquez</strong><span>Urología · Cirugía Urológica</span></div><div><strong>Consulta</strong><a href="tel:+526621682543">+52 662 168 2543</a><a href="https://wa.me/526621682543" onclick="return gtag_report_conversion(this.href);">WhatsApp</a></div><div><strong>Urgencias urológicas 24/7</strong><a href="tel:+522227526728">+52 222 752 6728</a></div></div><div class="container footer-bottom">© <span data-current-year>2026</span> Dr. José Ramón Márquez · Urólogo en Hermosillo</div></footer>
 
 </body>
 </html>

@@ -9,21 +9,6 @@
     gtag('js', new Date());
     gtag('config', 'AW-10890424360');
   </script>
-  <script>
-    function gtag_report_conversion(url) {
-      var callback = function () {
-        if (typeof(url) !== 'undefined') {
-          window.location = url;
-        }
-      };
-      gtag('event', 'conversion', {
-        'send_to': 'AW-10890424360/ydAMCOLfy4wcEKjg-sgo',
-        'event_callback': callback
-      });
-      return false;
-    }
-  </script>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="canonical" href="https://www.urologohermosillo.mx/vasectomia.html" />
@@ -114,368 +99,36 @@
   }
   </script>
 
-  <style>
-    :root {
-      --bg: #f4f7fb;
-      --white: #ffffff;
-      --text: #0f172a;
-      --muted: #475569;
-      --primary: #0f766e;
-      --primary-dark: #115e59;
-      --green: #16a34a;
-      --line: #dbe4ec;
-      --shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
-      --radius: 22px;
-      --max: 1120px;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
-      color: var(--text);
-    }
-
-    img { max-width: 100%; display: block; }
-    a { text-decoration: none; color: inherit; }
-
-    .container {
-      width: min(var(--max), calc(100% - 32px));
-      margin: 0 auto;
-    }
-
-    .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: rgba(255,255,255,0.92);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(219,228,236,0.9);
-    }
-
-    .topbar-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 16px;
-      padding: 16px 0;
-    }
-
-    .brand {
-      font-weight: 800;
-      font-size: 18px;
-      letter-spacing: -0.02em;
-    }
-
-    .nav {
-      display: flex;
-      gap: 18px;
-      font-size: 14px;
-      color: var(--muted);
-      flex-wrap: wrap;
-    }
-
-    .hero { padding: 48px 0 22px; }
-
-    .panel {
-      background: rgba(255,255,255,0.88);
-      border: 1px solid rgba(255,255,255,0.95);
-      border-radius: 28px;
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-
-    .hero-copy { padding: 38px; }
-
-    .eyebrow {
-      display: inline-block;
-      margin-bottom: 16px;
-      padding: 8px 14px;
-      background: #ecfeff;
-      color: var(--primary-dark);
-      border-radius: 999px;
-      font-size: 13px;
-      font-weight: 700;
-    }
-
-    h1 {
-      margin: 0 0 14px;
-      font-size: clamp(34px, 5vw, 52px);
-      line-height: 1;
-      letter-spacing: -0.04em;
-    }
-
-    .lead {
-      margin: 0 0 24px;
-      color: var(--muted);
-      font-size: 18px;
-      line-height: 1.7;
-      max-width: 62ch;
-    }
-
-    .cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-bottom: 24px;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 52px;
-      padding: 14px 22px;
-      border-radius: 999px;
-      font-weight: 700;
-      border: 1px solid transparent;
-      transition: 0.2s ease;
-    }
-
-    .btn:hover { transform: translateY(-1px); }
-    .btn-primary { background: var(--primary); color: #fff; }
-    .btn-secondary { background: #fff; color: var(--text); border-color: var(--line); }
-    .btn-service { margin-top: 16px; }
-
-    .highlights {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-    }
-
-    .highlight {
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      padding: 16px;
-    }
-
-    .highlight strong {
-      display: block;
-      margin-bottom: 6px;
-      font-size: 15px;
-    }
-
-    .highlight span {
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.5;
-    }
-
-    .section { padding: 24px 0 10px; }
-
-    .section-head { margin-bottom: 18px; }
-
-    .section-head h2 {
-      margin: 0 0 8px;
-      font-size: clamp(28px, 4vw, 42px);
-      letter-spacing: -0.03em;
-    }
-
-    .section-head p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 17px;
-      line-height: 1.7;
-    }
-
-    .grid-2 {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 18px;
-    }
-
-    .grid-3 {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 18px;
-    }
-
-    .card {
-      background: var(--white);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 24px;
-    }
-
-    .tag {
-      display: inline-block;
-      margin-bottom: 12px;
-      padding: 7px 12px;
-      border-radius: 999px;
-      background: #f0fdf4;
-      color: #166534;
-      font-size: 12px;
-      font-weight: 800;
-    }
-
-    .card h3 {
-      margin: 0 0 10px;
-      font-size: 22px;
-      letter-spacing: -0.02em;
-    }
-
-    .card p {
-      margin: 0 0 14px;
-      color: var(--muted);
-      line-height: 1.7;
-    }
-
-    .card ul {
-      margin: 0;
-      padding-left: 18px;
-      color: var(--muted);
-      line-height: 1.8;
-    }
-
-    .steps {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    .step {
-      display: flex;
-      gap: 18px;
-      align-items: flex-start;
-      background: var(--white);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 24px;
-    }
-
-    .step-num {
-      flex-shrink: 0;
-      width: 44px;
-      height: 44px;
-      background: var(--primary);
-      color: #fff;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 900;
-      font-size: 18px;
-    }
-
-    .step-body h3 {
-      margin: 0 0 6px;
-      font-size: 20px;
-      letter-spacing: -0.02em;
-    }
-
-    .step-body p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.7;
-    }
-
-    .recovery-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 18px;
-    }
-
-    .recovery-card {
-      background: var(--white);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 28px;
-      text-align: center;
-    }
-
-    .recovery-num {
-      font-size: 52px;
-      font-weight: 900;
-      letter-spacing: -0.04em;
-      color: var(--primary);
-      line-height: 1;
-      margin-bottom: 8px;
-    }
-
-    .recovery-label {
-      color: var(--muted);
-      font-size: 16px;
-      line-height: 1.5;
-    }
-
-    .back-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      color: var(--muted);
-      font-size: 14px;
-      padding: 8px 0;
-      margin-bottom: 8px;
-    }
-
-    .back-link:hover { color: var(--primary); }
-
-    .floating-actions {
-      position: fixed;
-      right: 18px;
-      bottom: 18px;
-      z-index: 60;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      align-items: flex-end;
-    }
-
-    .floating-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-width: 178px;
-      min-height: 54px;
-      padding: 14px 20px;
-      border-radius: 999px;
-      color: #fff;
-      font-weight: 800;
-      box-shadow: 0 16px 30px rgba(15,23,42,0.18);
-    }
-
-    .floating-book { background: #0f172a; }
-    .floating-call { background: var(--primary); }
-    .floating-wa { background: var(--green); }
-
-    footer {
-      padding: 34px 0 110px;
-      text-align: center;
-      color: #64748b;
-      font-size: 15px;
-    }
-
-    @media (max-width: 900px) {
-      .nav { display: none; }
-      .grid-2, .grid-3, .highlights, .recovery-grid { grid-template-columns: 1fr; }
-      .hero-copy { padding: 28px; }
-      .floating-actions { left: 14px; right: 14px; align-items: stretch; }
-      .floating-btn { width: 100%; min-width: 0; }
-    }
-  </style>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/06_Favicon_32x32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/brand/06_Favicon_64x64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/06_Favicon_180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/brand/06_Favicon_192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/brand/06_Favicon_512x512.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/site.js"></script>
 </head>
-<body>
+<body class="page-vasectomia">
 
   <header class="topbar">
-    <div class="container topbar-inner">
-      <a href="index.html" class="brand">Dr. José Ramón Márquez</a>
-      <nav class="nav">
-        <a href="urologo-hermosillo.html">Urología general</a>
-        <a href="prostata.html">Próstata / HOLEP</a>
-        <a href="calculos.html">Cálculos / láser</a>
-        <a href="vasectomia.html">Vasectomía</a>
-        <a href="circuncision.html">Circuncisión</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
-    </div>
-  </header>
+  <div class="container topbar-inner">
+    <a href="index.html" class="brand" aria-label="Dr. José Ramón Márquez, inicio">
+      <img src="assets/brand/02_Logo_Principal_Transparente_Web.png" alt="Ilustración profesional sobre vasectomía ambulatoria" width="320" height="206">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Abrir menú</span></button>
+    <nav class="nav" id="site-nav" aria-label="Navegación principal">
+      <a href="prostata.html">Próstata / HOLEP</a>
+      <a href="calculos.html">Cálculos / láser</a>
+      <a href="vasectomia.html">Vasectomía</a>
+      <a href="circuncision.html">Circuncisión</a>
+      <a href="urologo-hermosillo.html">Urología general</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
 
   <main>
     <section class="hero">
@@ -483,6 +136,7 @@
         <a href="index.html" class="back-link">← Regresar al inicio</a>
         <div class="panel hero-copy">
           <div class="eyebrow">Planificación familiar · Hermosillo</div>
+          <figure class="inline-hero-visual"><img src="assets/images/vasectomia.svg" alt="Ilustración profesional sobre vasectomía ambulatoria" width="420" height="320"></figure>
           <h1>Vasectomía en Hermosillo</h1>
           <p class="lead">
             El Dr. José Ramón Márquez realiza vasectomías en Hermosillo como procedimiento ambulatorio, con orientación completa antes y después del procedimiento. El primer paso es una consulta previa donde se explica todo detalladamente.
@@ -513,113 +167,69 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>¿Cómo es el proceso?</h2>
-          <p>Desde la primera consulta hasta la recuperación, el Dr. Márquez acompaña cada etapa.</p>
-        </div>
-        <div class="steps">
-          <div class="step">
-            <div class="step-num">1</div>
-            <div class="step-body">
-              <h3>Consulta previa</h3>
-              <p>El Dr. Márquez explica el procedimiento con detalle, resuelve todas tus dudas y evalúa que seas un candidato adecuado. Es un requisito antes de programar la cirugía.</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-num">2</div>
-            <div class="step-body">
-              <h3>Procedimiento ambulatorio</h3>
-              <p>La vasectomía se realiza en consultorio con anestesia local. Es un procedimiento breve y el mismo día puedes regresar a casa.</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-num">3</div>
-            <div class="step-body">
-              <h3>Recuperación</h3>
-              <p>Se recomiendan 2 días de reposo y 5 días de abstinencia sexual. La mayoría de los pacientes retoman sus actividades normales en pocos días.</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-num">4</div>
-            <div class="step-body">
-              <h3>Seguimiento postoperatorio</h3>
-              <p>Se programa una consulta de seguimiento para confirmar el éxito del procedimiento mediante análisis de laboratorio.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
+<section class="section" id="procedimiento">
+  <div class="container">
+    <div class="section-head"><span class="section-kicker">Planificación familiar definitiva</span><h2>¿Qué es la vasectomía?</h2><p>Es un método anticonceptivo permanente en el que se interrumpen ambos conductos deferentes para evitar que los espermatozoides lleguen al semen. No se retiran los testículos ni se modifica la producción de testosterona.</p></div>
+    <div class="steps">
+      <article class="step"><div class="step-num">1</div><div class="step-body"><h3>Consulta previa</h3><p>Se revisan antecedentes, medicamentos, exploración, expectativas y el carácter permanente del procedimiento. También se resuelven dudas sobre fertilidad futura.</p></div></article>
+      <article class="step"><div class="step-num">2</div><div class="step-body"><h3>Anestesia y procedimiento</h3><p>Habitualmente se realiza de manera ambulatoria con anestesia local. Si existe alguna necesidad particular, las alternativas se comentan antes de programarlo.</p></div></article>
+      <article class="step"><div class="step-num">3</div><div class="step-body"><h3>Alta y seguimiento</h3><p>El paciente regresa a casa el mismo día con indicaciones para controlar molestias, proteger la herida y reconocer datos que ameritan revisión.</p></div></article>
+    </div>
+  </div>
+</section>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>Recuperación</h2>
-          <p>Rápida y con indicaciones claras desde la consulta previa.</p>
-        </div>
-        <div class="recovery-grid">
-          <div class="recovery-card">
-            <div class="recovery-num">2</div>
-            <div class="recovery-label">días de reposo recomendados</div>
-          </div>
-          <div class="recovery-card">
-            <div class="recovery-num">5</div>
-            <div class="recovery-label">días de abstinencia sexual</div>
-          </div>
-        </div>
-      </div>
-    </section>
+<section class="section" id="recuperacion">
+  <div class="container">
+    <div class="section-head"><span class="section-kicker">Después de la vasectomía</span><h2>Recuperación y actividad sexual</h2><p>Es común presentar sensibilidad, inflamación leve o pequeños moretones durante los primeros días. La evolución no es idéntica en todos los pacientes.</p></div>
+    <div class="grid-3">
+      <article class="card"><h3>Primeros días</h3><p>Se indican reposo relativo, soporte escrotal, cuidado de la herida y analgésicos apropiados para el paciente.</p></article>
+      <article class="card"><h3>Trabajo y ejercicio</h3><p>Las actividades cotidianas se retoman gradualmente. El ejercicio intenso y la carga pesada se posponen según la evolución y el tipo de trabajo.</p></article>
+      <article class="card"><h3>Relaciones sexuales</h3><p>Pueden reanudarse cuando la molestia y la herida lo permitan, siguiendo las indicaciones recibidas. La vasectomía todavía no es efectiva de inmediato.</p></article>
+    </div>
+  </div>
+</section>
 
-    <section class="section" id="faq">
-      <div class="container">
-        <div class="section-head">
-          <h2>Preguntas frecuentes</h2>
-          <p>Lo que los pacientes suelen preguntar antes de la vasectomía.</p>
-        </div>
-        <div class="grid-2">
-          <div class="card">
-            <h3>¿La vasectomía es definitiva?</h3>
-            <p>Sí. Se considera un método anticonceptivo permanente y debe tomarse como una decisión definitiva de planificación familiar.</p>
-          </div>
-          <div class="card">
-            <h3>¿Afecta la vida sexual?</h3>
-            <p>No. La vasectomía no afecta la libido, la función eréctil ni el placer sexual. Solo impide la presencia de espermatozoides en el semen.</p>
-          </div>
-          <div class="card">
-            <h3>¿Qué necesito para agendar?</h3>
-            <p>El primer paso es agendar una consulta previa donde el Dr. Márquez explicará el procedimiento en detalle y evaluará tu caso antes de programar la cirugía.</p>
-          </div>
-          <div class="card">
-            <h3>¿Es dolorosa la recuperación?</h3>
-            <p>La molestia postoperatoria es leve y manejable con analgésicos comunes. La mayoría de los pacientes refieren mínimas molestias durante los primeros días.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+<section class="section" id="fertilidad">
+  <div class="container">
+    <div class="section-head"><span class="section-kicker">Un punto esencial</span><h2>Fertilidad y espermatobioscopía</h2></div>
+    <div class="grid-2">
+      <article class="card"><h3>El semen continúa produciéndose</h3><p>La mayor parte del líquido seminal proviene de la próstata y las vesículas seminales. Los espermatozoides representan una fracción pequeña, por lo que el cambio en el volumen eyaculado suele ser mínimo.</p><p>La vasectomía no busca cambiar el deseo, la erección ni el orgasmo. Cualquier síntoma sexual previo debe valorarse de forma independiente.</p></article>
+      <article class="card"><h3>No suspendas anticoncepción todavía</h3><p>Después de la cirugía pueden permanecer espermatozoides en los conductos. Es necesario utilizar otro método anticonceptivo hasta que la espermatobioscopía de control confirme el resultado esperado.</p><p>El estudio se programa después de un periodo y número de eyaculaciones indicados durante el seguimiento; no debe sustituirse por la impresión de que “todo está bien”.</p></article>
+    </div>
+  </div>
+</section>
 
-    <section class="section">
-      <div class="container">
-        <div class="card">
-          <div class="section-head">
-            <h2>Agenda tu consulta previa</h2>
-            <p>El primer paso es una consulta donde el Dr. Márquez explica el procedimiento y resuelve todas tus dudas. Agenda por WhatsApp o por teléfono.</p>
-          </div>
-          <div class="cta-row">
-            <a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20Dr.%20Jos%C3%A9%20Ram%C3%B3n%2C%20vi%20su%20p%C3%A1gina%20web%20y%20quiero%20informaci%C3%B3n%20sobre%20vasectom%C3%ADa" onclick="return gtag_report_conversion(this.href);">
-              Agendar por WhatsApp
-            </a>
-            <a class="btn btn-secondary" href="tel:+526621682543">
-              Llamar al consultorio
-            </a>
-            <a class="btn btn-secondary" href="contacto.html">
-              Ver información de contacto
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+<section class="section" id="decision">
+  <div class="container">
+    <div class="section-head"><span class="section-kicker">Decisión informada</span><h2>¿Qué conviene considerar antes?</h2></div>
+    <div class="grid-3">
+      <article class="card"><h3>Se considera permanente</h3><p>Existen técnicas de reversión o recuperación de espermatozoides, pero no garantizan recuperar la fertilidad. La decisión debe tomarse pensando en que será definitiva.</p></article>
+      <article class="card"><h3>No protege de infecciones</h3><p>La vasectomía previene embarazos después de confirmarse su efectividad, pero no protege contra infecciones de transmisión sexual.</p></article>
+      <article class="card"><h3>Revisión individual</h3><p>Anticoagulantes, cirugías previas, dolor escrotal u otras condiciones pueden modificar la preparación o el plan.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-head"><span class="section-kicker">Preguntas frecuentes</span><h2>Dudas sobre vasectomía</h2></div>
+    <div class="grid-2">
+      <article class="card"><h3>¿La vasectomía es definitiva?</h3><p>Debe considerarse un método permanente. No es recomendable decidirla pensando que una reversión futura siempre funcionará.</p></article>
+      <article class="card"><h3>¿Afecta la testosterona?</h3><p>No se intervienen los mecanismos que producen testosterona. Si existen síntomas hormonales, deben estudiarse por separado.</p></article>
+      <article class="card"><h3>¿Afecta la vida sexual?</h3><p>El objetivo es modificar el transporte de espermatozoides, no la función sexual. El deseo, la erección y el orgasmo no deberían cambiar por este mecanismo.</p></article>
+      <article class="card"><h3>¿Cuándo puedo volver a trabajar?</h3><p>Depende de las molestias y de si el trabajo implica esfuerzo físico. El retorno se individualiza durante las indicaciones posoperatorias.</p></article>
+      <article class="card"><h3>¿Por qué necesito una espermatobioscopía?</h3><p>Porque es la forma de comprobar si aún existen espermatozoides en el semen y cuándo puede suspenderse el anticonceptivo adicional.</p></article>
+      <article class="card"><h3>¿Qué necesito para agendar?</h3><p>Una consulta previa permite confirmar la decisión, revisar antecedentes y explicar preparación, procedimiento y seguimiento.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contacto">
+  <div class="container"><div class="card service"><div class="section-head"><span class="section-kicker">Resuelve tus dudas primero</span><h2>Agenda una consulta previa para vasectomía</h2><p>Recibe información clara sobre el procedimiento, recuperación, fertilidad y seguimiento antes de tomar una decisión.</p></div><div class="cta-row"><a class="btn btn-primary" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta%20previa%20para%20vasectom%C3%ADa" onclick="return gtag_report_conversion(this.href);">Agendar consulta previa</a><a class="btn btn-secondary" href="tel:+526621682543">Llamar al consultorio</a></div></div></div>
+</section>
+
+</main>
 
   <div class="floating-actions">
     <a class="floating-btn floating-book" href="https://wa.me/526621682543?text=Hola%20Dr.%20Jos%C3%A9%20Ram%C3%B3n%2C%20vi%20su%20p%C3%A1gina%20web%20y%20quiero%20informaci%C3%B3n%20sobre%20vasectom%C3%ADa" onclick="return gtag_report_conversion(this.href);">
@@ -633,10 +243,7 @@
     </a>
   </div>
 
-  <footer>
-    © Dr. José Ramón Márquez · Urólogo en Hermosillo · Atención con cita<br>
-    <small>Urgencias urológicas 24/7: <a href="tel:+522227526728">+52 222 752 6728</a></small>
-  </footer>
+  <footer class="site-footer"><div class="container footer-grid"><div><img src="assets/brand/03_Isotipo_Transparente.png" alt="" width="72" height="58" loading="lazy"><strong>Dr. José Ramón Márquez</strong><span>Urología · Cirugía Urológica</span></div><div><strong>Consulta</strong><a href="tel:+526621682543">+52 662 168 2543</a><a href="https://wa.me/526621682543" onclick="return gtag_report_conversion(this.href);">WhatsApp</a></div><div><strong>Urgencias urológicas 24/7</strong><a href="tel:+522227526728">+52 222 752 6728</a></div></div><div class="container footer-bottom">© <span data-current-year>2026</span> Dr. José Ramón Márquez · Urólogo en Hermosillo</div></footer>
 
 </body>
 </html>
