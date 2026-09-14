@@ -9,6 +9,11 @@ window.gtag_report_conversion=function(url){
   callback();
   return false;
 };
+window.gtag_track_event=function(eventName,parameters){
+  try{
+    if(typeof window.gtag==="function")window.gtag("event",eventName,parameters||{});
+  }catch(error){}
+};
 document.addEventListener("DOMContentLoaded",function(){
   var toggle=document.querySelector(".nav-toggle");
   var nav=document.getElementById("site-nav");
@@ -24,4 +29,16 @@ document.addEventListener("DOMContentLoaded",function(){
     if(link.getAttribute("href")===current)link.setAttribute("aria-current","page");
   });
   document.querySelectorAll("[data-current-year]").forEach(function(node){node.textContent=String(new Date().getFullYear());});
+  document.querySelectorAll("a[href]").forEach(function(link){
+    var href=link.getAttribute("href")||"";
+    var eventName="";
+    if(href.indexOf("tel:+526621682543")===0)eventName="phone_click";
+    else if(href.indexOf("tel:+522227526728")===0)eventName="emergency_call_click";
+    else if(/^https:\/\/(maps\.app\.goo\.gl|www\.google\.[^/]+\/maps)/i.test(href))eventName="maps_click";
+    if(eventName){
+      link.addEventListener("click",function(){
+        window.gtag_track_event(eventName,{link_url:href,link_text:(link.textContent||"").trim()});
+      },{passive:true});
+    }
+  });
 });

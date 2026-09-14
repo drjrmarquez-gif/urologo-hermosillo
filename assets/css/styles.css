@@ -85,7 +85,7 @@ h3{margin:0 0 10px;font-size:1.3rem}
 .icon{display:grid;place-items:center;width:48px;height:48px;border-radius:14px;background:var(--mist);color:var(--navy);font-weight:800}
 .floating-actions{position:fixed;right:18px;bottom:18px;z-index:45;display:flex;flex-direction:column;gap:10px}
 .floating-btn{display:flex;align-items:center;justify-content:center;min-height:48px;padding:11px 16px;border-radius:999px;color:#fff;font-size:.8rem;font-weight:800;box-shadow:0 8px 22px rgba(13,43,69,.18)}
-.floating-book,.floating-wa{background:var(--navy)}
+.floating-wa{background:var(--navy)}
 .floating-call{background:var(--blue)}
 .site-footer{padding:46px 0 96px;background:var(--navy);color:#dfe8ee}
 .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
