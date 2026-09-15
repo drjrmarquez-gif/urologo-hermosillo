@@ -38,6 +38,9 @@ window.get_cta_tracking_context=function(link){
     cta_location:ctaLocation
   };
 };
+if(typeof window.gtag==="function"){
+  window.gtag('config', 'G-9GRJNF1RX0');
+}
 document.addEventListener("DOMContentLoaded",function(){
   var toggle=document.querySelector(".nav-toggle");
   var nav=document.getElementById("site-nav");
