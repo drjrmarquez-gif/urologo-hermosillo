@@ -27,7 +27,8 @@ window.get_cta_tracking_context=function(link){
     "contacto.html":"contacto"
   };
   var ctaLocation="service_section";
-  if(link.closest(".floating-actions"))ctaLocation="floating_bar";
+  if(link.closest(".mobile-conversion-bar"))ctaLocation="mobile_sticky_bar";
+  else if(link.closest(".floating-actions"))ctaLocation="floating_bar";
   else if(link.closest(".site-footer"))ctaLocation="footer";
   else if(link.closest(".hero"))ctaLocation="hero";
   else if(link.closest(".contact-method"))ctaLocation="contact_card";
@@ -56,6 +57,13 @@ document.addEventListener("DOMContentLoaded",function(){
     if(link.getAttribute("href")===current)link.setAttribute("aria-current","page");
   });
   document.querySelectorAll("[data-current-year]").forEach(function(node){node.textContent=String(new Date().getFullYear());});
+  if(!document.querySelector(".mobile-conversion-bar")){
+    var bar=document.createElement("div");
+    bar.className="mobile-conversion-bar";
+    bar.setAttribute("aria-label","Acciones rápidas de contacto");
+    bar.innerHTML='<a class="mcb-wa" href="https://wa.me/526621682543?text=Hola%20doctor%2C%20quiero%20agendar%20una%20consulta%20urol%C3%B3gica%20en%20Hermosillo" onclick="return gtag_report_conversion(this.href);">WhatsApp</a><a class="mcb-call" href="tel:+526621682543">Llamar</a><a class="mcb-urgent" href="tel:+522227526728">Urgencias 24/7</a>';
+    document.body.appendChild(bar);
+  }
   document.querySelectorAll("a[href]").forEach(function(link){
     var href=link.getAttribute("href")||"";
     var eventName="";
